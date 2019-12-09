@@ -14,7 +14,7 @@
         "silverstripe/sentry": "*"
     },
     "require": {
-        "php": "^>7.0",
+        "php": "7.x.x",
         "sentry/sentry": "^1.7",
         "silverstripe/framework": ">=3.7.0,<4"
     },
