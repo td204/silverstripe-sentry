@@ -1,3 +1,22 @@
+# Fork with PHP 7 support in silverstripe 3.7.x
+
+This fork will support PHP 7 on Silverstripe 3.7.x installs.
+
+To install, require this specific composer version:
+
+`composer require phptek/sentry:^1.1.5`
+
+And in your repositories-array in composer.json, add the following:
+```
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/td204/silverstripe-sentry"
+	}
+]
+```
+
+
 # Sentry.io integration for SilverStripe
 
 [![Build Status](https://api.travis-ci.org/phptek/silverstripe-sentry.svg?branch=master)](https://travis-ci.org/phptek/silverstripe-sentry)
