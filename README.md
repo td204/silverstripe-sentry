@@ -4,7 +4,7 @@ This fork will support PHP 7 on Silverstripe 3.7.x installs.
 
 To install, require this specific composer version:
 
-`composer require phptek/sentry:^1.1.5`
+`composer require phptek/sentry:^1.1.6`
 
 And in your repositories-array in composer.json, add the following:
 ```
